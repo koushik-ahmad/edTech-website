@@ -1,3 +1,8 @@
-.bgColor {
-    background-color: #ede9fe;
+.exploreColor {
+    background-color: rgb(245, 247, 248);
+}
+
+.exploreSize {
+    Width: 1320px;
+    Height: 806px;
 }
