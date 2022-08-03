@@ -1,8 +1,29 @@
-.exploreColor {
-    background-color: rgb(245, 247, 248);
+.carousel-item img {
+    min-height: 300px;
 }
 
-.exploreSize {
-    Width: 1320px;
-    Height: 806px;
+.carousel-item img {
+    filter: brightness(50%);
+}
+
+.carousel-caption h1 {
+    font-size: 4.5em;
+    margin-top: 4%;
+}
+
+/* ----responsive font size------ */
+@media screen and (max-width:992px) {
+    .carousel-caption h1 {
+        font-size: 3em;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .carousel-caption h1 {
+        font-size: 2em;
+    }
+
+    .carousel-caption p {
+        font-size: 10px;
+    }
 }
